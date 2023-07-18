@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2rem;
+    color: darkgreen;
+    padding: 1rem 0.4rem;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+h3,h4{
+    color: coral;
+    font-size: 1.3rem;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: deepskyblue;
+    padding: 0.8rem;
+    line-height: 1.6;
+    width: 80%;
+    margin: auto;
+    font-size: 2rem;
+}
+button{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10rem;
+    background-color: lightpink;
+    font-size: 18px;
+    width: 16rem;
+    cursor: pointer;
+    
+}
+.header{
+    text-align: center;
+    margin: auto;
+}
+.header img{
+    padding: 4rem;
+    margin: 0 auto;
+    display: block;
+    align-items: center;
+}
+.content-1{
+    text-align: center;
+    margin: auto;
+}
+.content-2{
+    text-align: left;
+    margin: 4rem 0;
+    display: flex;
+    width: 100%;
+    padding: 0;
+}
+
+.content-2.specifications.sub-content{
+    margin: 2rem 3rem 2rem 4rem;
+}
+
+.content-2.specifications.sub-content p{
+    text-align: left;
+    padding: 1rem 0;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.content-3{
+    text-align: center;
+    margin: 2rem auto auto auto;
+    width: 100%;
+}
+
+.accessibility{
+    text-align: center;
+    display: flex;
+
+}
+.accessibility div{
+    padding: 2rem;
+
+}
+
+.accessibility div h4{
+    padding: 1.4rem 0;
+}
